@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.next/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build
+out/
+dist/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Protected files (Rule 10 & 62)
+docs/validation/mom_test_results.md
+docs/validation/mom_test_script.md
+docs/validation/interview_targets.md
+docs/strategy/
+PLAN.md
+ROADMAP.md
+PRD.md
+ideas.md
+architecture_notes.md
